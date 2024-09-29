@@ -1,5 +1,4 @@
 import React from 'react'
-import App from './App'; // Assuming App.jsx is in the same folder
 
 import {Routes, Route, BrowserRouter} from 'react-router-dom'
 import Home from './pages/Home'
