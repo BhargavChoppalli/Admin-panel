@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, BrowserRouter} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Settings from './pages/Settings'
@@ -7,7 +7,7 @@ import Settings from './pages/Settings'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
        <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="about" exact element={<About/>}/>
@@ -15,7 +15,7 @@ const App = () => {
        </Routes>
        
 
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
