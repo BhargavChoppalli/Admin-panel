@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Settings from './pages/Settings'
