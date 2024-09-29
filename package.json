@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "homepage": "https://yourusername.github.io/your-repo-name"
+
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
